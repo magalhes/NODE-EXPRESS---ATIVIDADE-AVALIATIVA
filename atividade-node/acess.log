@@ -1,0 +1,362 @@
+
+Request: POST /aluno/novo at Sat Apr 15 2023 17:22:40 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Request Body:
+{
+	"matricula": 1,
+	"nome": "Lucas Leao",
+	"media": "7.5"
+}
+Response Body:
+Recebido: 1, Lucas Leao, 7.5
+Response: 200 10.565 ms 
+
+Request: DELETE /aluno/deletar/1 at Sat Apr 15 2023 17:25:47 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"message": "Usuario apagado com sucesso"
+}
+Response: 200 3.862 ms 
+
+Request: GET / at Sat Apr 15 2023 17:53:46 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+[
+	{
+		"matricula": 1,
+		"nome": "José",
+		"media": 7.5
+	},
+	{
+		"matricula": 2,
+		"nome": "Gabriel",
+		"media": 8.5
+	},
+	{
+		"matricula": 3,
+		"nome": "Carlos",
+		"media": 6
+	}
+]
+Response: 200 10.710 ms 
+
+Request: GET / at Sat Apr 15 2023 17:54:02 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response: 404 3.881 ms 
+
+Request: GET / at Sat Apr 15 2023 17:54:23 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response: 404 3.531 ms 
+
+Request: GET / at Sat Apr 15 2023 17:54:39 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response: 404 3.516 ms 
+
+Request: GET / at Sat Apr 15 2023 17:55:04 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response: 404 3.177 ms 
+
+Request: POST /aluno/novo at Sat Apr 15 2023 17:59:55 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Request Body:
+{
+	"matricula": 1,
+	"nome": "Lucas Leao",
+	"media": "7.5"
+}
+Response: 500 3.606 ms 
+
+Request: POST /aluno/novo at Sat Apr 15 2023 18:00:33 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Request Body:
+{
+	"matricula": 1,
+	"nome": "Lucas Leao",
+	"media": "7.5"
+}
+Response: 500 2.479 ms 
+
+Request: GET / at Sat Apr 15 2023 18:01:13 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response: 404 3.464 ms 
+
+Request: GET / at Sat Apr 15 2023 18:01:35 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response: 404 3.478 ms 
+
+Request: GET / at Sat Apr 15 2023 18:04:52 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response: 404 3.625 ms 
+
+Request: GET / at Sat Apr 15 2023 18:08:11 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response: - - ms 
+
+Request: GET / at Sat Apr 15 2023 18:08:20 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response: 500 4.101 ms 
+
+Request: GET / at Sat Apr 15 2023 18:08:37 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response: 200 0.964 ms 
+
+Request: GET / at Sat Apr 15 2023 18:08:47 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response: 500 3.828 ms 
+
+Request: GET / at Sat Apr 15 2023 18:09:29 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response: 200 1.104 ms 
+
+Request: GET / at Sat Apr 15 2023 18:10:01 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response: 500 6.575 ms 
+
+Request: GET / at Sat Apr 15 2023 18:15:26 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"alunos": [
+		{
+			"matricula": 1,
+			"nome": "José",
+			"media": 7.5
+		},
+		{
+			"matricula": 2,
+			"nome": "Gabriel",
+			"media": 8.5
+		},
+		{
+			"matricula": 3,
+			"nome": "Carlos",
+			"media": 6
+		}
+	]
+}
+Response: 200 10.002 ms 
+
+Request: GET / at Sat Apr 15 2023 18:15:46 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"alunos": [
+		{
+			"matricula": 1,
+			"nome": "José",
+			"media": 7.5
+		},
+		{
+			"matricula": 2,
+			"nome": "Gabriel",
+			"media": 8.5
+		},
+		{
+			"matricula": 3,
+			"nome": "Carlos",
+			"media": 6
+		}
+	]
+}
+Response: 200 0.719 ms 
+
+Request: GET / at Sat Apr 15 2023 18:16:48 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"alunos": [
+		{
+			"matricula": 1,
+			"nome": "José",
+			"media": 7.5
+		},
+		{
+			"matricula": 2,
+			"nome": "Gabriel",
+			"media": 8.5
+		},
+		{
+			"matricula": 3,
+			"nome": "Carlos",
+			"media": 6
+		}
+	]
+}
+Response: 200 3.648 ms 
+
+Request: PUT /aluno/atualizar/2 at Sat Apr 15 2023 18:17:00 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Request Body:
+{
+	"nome": "Carlinhos",
+	"media": 10
+}
+Response Body:
+{
+	"menssagem": "Dados invalidos"
+}
+Response: 400 1.280 ms 
+
+Request: PUT /aluno/atualizar/2 at Sat Apr 15 2023 18:17:24 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Request Body:
+{
+	"nome": "Carlinhos",
+	"media": 10
+}
+Response Body:
+{
+	"menssagem": "Dados invalidos"
+}
+Response: 400 3.686 ms 
+
+Request: POST /aluno/novo at Sat Apr 15 2023 18:17:31 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Request Body:
+{
+	"matricula": 1,
+	"nome": "Lucas Leao",
+	"media": "7.5"
+}
+Response: 500 3.627 ms 
+
+Request: POST /aluno/novo at Sat Apr 15 2023 18:17:49 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Request Body:
+{
+	"matricula": 1,
+	"nome": "Lucas Leao",
+	"media": "7.5"
+}
+Response: 500 3.215 ms 
+
+Request: POST /aluno/novo at Sat Apr 15 2023 18:18:22 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Request Body:
+{
+	"matricula": 1,
+	"nome": "Lucas Leao",
+	"media": "7.5"
+}
+Response: 500 2.432 ms 
+
+Request: POST /aluno/novo at Sat Apr 15 2023 18:18:47 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Request Body:
+{
+	"matricula": 1,
+	"nome": "Lucas Leao",
+	"media": "7.5"
+}
+Response: 500 3.567 ms 
+
+Request: PUT /aluno/atualizar/2 at Sat Apr 15 2023 18:19:06 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Request Body:
+{
+	"nome": "Carlinhos",
+	"media": 10
+}
+Response Body:
+{
+	"menssagem": "Dados invalidos"
+}
+Response: 400 3.945 ms 
+
+Request: PUT /aluno/atualizar/2 at Sat Apr 15 2023 18:19:16 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Request Body:
+{
+	"nome": "Carlinhos",
+	"media": 10
+}
+Response Body:
+{
+	"menssagem": "Dados invalidos"
+}
+Response: 400 3.803 ms 
+
+Request: PUT /aluno/atualizar/2 at Sat Apr 15 2023 18:19:34 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Request Body:
+{
+	"nome": "Carlinhos",
+	"media": 10
+}
+Response Body:
+Recebido: Carlinhos, 10 
+Response: 200 4.991 ms 
+
+Request: PUT /aluno/atualizar/2 at Sat Apr 15 2023 18:22:11 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Request Body:
+{
+	"nome": "Carlinhos",
+	"media": 10
+}
+Response Body:
+Recebido: Carlinhos, 10 
+Response: 200 11.750 ms 
+
+Request: PUT /aluno/atualizar/2 at Sat Apr 15 2023 18:23:05 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Request Body:
+{
+	"nome": "Carlinhos",
+	"media": 10
+}
+Response Body:
+Recebido: Carlinhos, 10 
+Response: 200 3.532 ms 
+
+Request: PUT /aluno/atualizar/2 at Sat Apr 15 2023 18:24:49 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Request Body:
+{
+	"nome": "Carlinhos",
+	"media": 10
+}
+Response Body:
+Recebido: Carlinhos, 10 
+Response: 200 5.930 ms 
+
+Request: PUT /aluno/atualizar/2 at Sat Apr 15 2023 18:26:07 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Request Body:
+{
+	"nome": "Carlinhos",
+	"media": 10
+}
+Response Body:
+Recebido: Carlinhos, 10 
+Response: 200 5.168 ms 
+
+Request: DELETE /aluno/deletar/1 at Sat Apr 15 2023 18:26:09 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"message": "Usuario apagado com sucesso"
+}
+Response: 200 1.410 ms 
+
+Request: GET / at Sat Apr 15 2023 18:31:40 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+[
+	{
+		"matricula": 1,
+		"nome": "José",
+		"media": 7.5
+	},
+	{
+		"matricula": 2,
+		"nome": "Gabriel",
+		"media": 8.5
+	},
+	{
+		"matricula": 3,
+		"nome": "Carlos",
+		"media": 6
+	}
+]
+Response: 200 3.772 ms 
+
+Request: GET / at Sat Apr 15 2023 18:33:46 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+[
+	{
+		"matricula": 1,
+		"nome": "José",
+		"media": 7.5
+	},
+	{
+		"matricula": 2,
+		"nome": "Gabriel",
+		"media": 8.5
+	},
+	{
+		"matricula": 3,
+		"nome": "Carlos",
+		"media": 6
+	}
+]
+Response: 200 8.877 ms 
+
+Request: DELETE /aluno/deletar/0 at Sat Apr 15 2023 18:33:54 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"message": "Usuario apagado com sucesso"
+}
+Response: 200 0.961 ms 
+
+Request: DELETE /aluno/deletar/1 at Sat Apr 15 2023 18:34:17 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"message": "Usuario apagado com sucesso"
+}
+Response: 200 4.227 ms 
